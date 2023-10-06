@@ -50,4 +50,10 @@ return require('packer').startup(function(use)
   }
 
   use("github/copilot.vim")
+
+  use {
+    "ggandor/leap.nvim",
+    config = function() require("leap").set_default_keymaps() end
+  }
+
 end)
