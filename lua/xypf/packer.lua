@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
     config = function() require("leap").set_default_keymaps() end
   }
 
+  use("theprimeagen/refactoring.nvim")
+
 end)
