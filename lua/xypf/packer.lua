@@ -58,4 +58,6 @@ return require('packer').startup(function(use)
 
   use("theprimeagen/refactoring.nvim")
 
+  use("mbbill/undotree")
+
 end)
